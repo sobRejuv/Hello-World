@@ -1,0 +1,8 @@
+// this new feature will make our toaster be able to launch into low orbit
+
+void launch()
+{
+   rocket.ignite();
+   dockclamp.release();
+   gps.init();
+}
